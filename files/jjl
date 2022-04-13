@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <script type="text/javascript">
+function peshexod () {
+	let a= prompt ("Red,Green,Yellow?")
+	switch(a) {
+	case "Green":
+	alert ("Идти");
+	break;
+	case "Yellow":
+	alert("Готовтесь");
+	break;
+	case "Red":
+	alert ("Стой");
+	break;
+	default:
+	alert ("Вы на велике?")
+	}
+}
+peshexod();
+ </script>
+</html>
